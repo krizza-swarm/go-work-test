@@ -20,7 +20,3 @@ func displayOperation(nums []int, symbol string, total int) string {
 func PrintAddition(nums []int, total int) string {
 	return displayOperation(nums, "+", total)
 }
-
-func PrintSubtraction(nums []int, total int) string {
-	return displayOperation(nums, "-", total)
-}
